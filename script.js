@@ -26,7 +26,7 @@ const teamData = [
     role: "CEO",
     department: ["leadership"],
     badge: "Leadership",
-    bio: "Sets the vision and direction for Nova, guiding every department toward the same goal.",
+    bio: "Sets the vision and direction for LearnNova VU, guiding every department toward the same goal.",
     responsibilities: ["Company vision & strategy", "Executive decision-making", "Cross-department leadership"],
     social: ["linkedin", "whatsapp"]
   },
@@ -36,7 +36,7 @@ const teamData = [
     role: "Founder",
     department: ["leadership"],
     badge: "Leadership",
-    bio: "Founded Nova to bring people together around one shared, team-driven vision.",
+    bio: "Founded LearnNova VU to bring people together around one shared, team-driven vision.",
     responsibilities: ["Founding vision", "Long-term strategy", "Partnerships & growth"],
     social: ["linkedin", "instagram"]
   },
@@ -46,7 +46,7 @@ const teamData = [
     role: "COO",
     department: ["leadership"],
     badge: "Leadership",
-    bio: "Keeps Nova's day-to-day operations running smoothly across every department.",
+    bio: "Keeps LearnNova VU's day-to-day operations running smoothly across every department.",
     responsibilities: ["Operations management", "Process & efficiency", "Department coordination"],
     social: ["linkedin", "whatsapp"]
   },
@@ -56,7 +56,7 @@ const teamData = [
     role: "5th Semester",
     department: ["leadership"],
     badge: "Leadership",
-    bio: "Brings a fresh, student perspective into Nova's leadership conversations.",
+    bio: "Brings a fresh, student perspective into LearnNova VU's leadership conversations.",
     responsibilities: ["Leadership support", "Fresh perspective & ideas", "Cross-team involvement"],
     social: ["instagram", "whatsapp"]
   },
@@ -66,7 +66,7 @@ const teamData = [
     role: "Head of Communication",
     department: ["communication"],
     badge: "Communication",
-    bio: "Managing and coordinating Nova's WhatsApp communities and communication channels.",
+    bio: "Managing and coordinating LearnNova VU's WhatsApp communities and communication channels.",
     responsibilities: ["Manage WhatsApp communities", "Coordinate communication channels", "Keep the team connected"],
     social: ["whatsapp", "instagram"]
   },
@@ -76,7 +76,7 @@ const teamData = [
     role: "Marketing Manager & Content Creators",
     department: ["marketing"],
     badge: "Marketing",
-    bio: "Shape Nova's voice across reels, captions and campaigns from first draft to publish.",
+    bio: "Shape LearnNova VU's voice across reels, captions and campaigns from first draft to publish.",
     responsibilities: ["Writing reel scripts", "Creating captions", "Creating hashtags", "Developing social media content", "Supporting marketing campaigns"],
     social: ["instagram", "whatsapp"]
   },
@@ -96,7 +96,7 @@ const teamData = [
     role: "Social Media Director",
     department: ["social"],
     badge: "Social Media",
-    bio: "Oversees Nova's social media presence, content coordination, audience engagement, and social media strategy.",
+    bio: "Oversees LearnNova VU's social media presence, content coordination, audience engagement, and social media strategy.",
     responsibilities: ["Social media presence", "Content coordination", "Audience engagement", "Social media strategy"],
     social: ["instagram", "facebook"]
   },
@@ -106,7 +106,7 @@ const teamData = [
     role: "Chief Human Resource Manager",
     department: ["hr"],
     badge: "HR",
-    bio: "Keeps Nova's people at the centre of everything, from hiring to team growth.",
+    bio: "Keeps LearnNova VU's people at the centre of everything, from hiring to team growth.",
     responsibilities: ["Team coordination", "Recruitment and onboarding", "Team management", "Internal communication", "Employee/team development"],
     social: ["linkedin", "whatsapp"]
   },
@@ -481,7 +481,7 @@ joinForm.addEventListener("submit", async e => {
     });
 
     if (response.ok){
-      formSuccess.textContent = "Thanks — your message has been sent. Nova VU will be in touch soon.";
+      formSuccess.textContent = "Thanks — your message has been sent. LearnNova VU will be in touch soon.";
       formSuccess.hidden = false;
       joinForm.reset();
       Object.values(fieldToError).forEach(errId => { document.getElementById(errId).textContent = ""; });
